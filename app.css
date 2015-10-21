@@ -2075,19 +2075,6 @@ html {
   html #app {
     height: 100%; }
 
-#app.finale-start .finale,
-#app.finale-end .finale {
-  opacity: 1;
-  visibility: visible; }
-
-#app.finale-end .finale__applauseometer {
-  visibility: hidden;
-  opacity: 0; }
-
-#app.finale-end .finale__message {
-  visibility: visible;
-  opacity: 1; }
-
 input {
   font-family: inherit;
   font-weight: inherit; }
@@ -2120,37 +2107,14 @@ input {
   height: 100px;
   background: #2c3e50;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   font-weight: 100;
   padding: 0 3rem; }
-  .app__header span {
-    font-size: 1rem;
+  .app__header p {
+    font-size: 2rem;
     color: #fff;
     letter-spacing: 1px; }
-
-.talk-info {
-  font-size: 1.75rem;
-  width: 350px;
-  color: #fff;
-  background: transparent;
-  border: none;
-  border-bottom: 1px solid #fff;
-  padding: .5rem;
-  outline: none; }
-
-.btn-magic {
-  transition: background 0.3s ease-out;
-  border: none;
-  padding: 1rem 1.25rem;
-  background: #16a085;
-  color: #fff;
-  border-radius: 5px;
-  font-size: 1rem;
-  font-weight: 100;
-  outline: none; }
-  .btn-magic:hover {
-    cursor: pointer; }
 
 .app__main {
   height: calc(100% - 100px);
@@ -2194,75 +2158,3 @@ input {
       font-size: .875rem; }
     .suggestion-box__list__item i:hover {
       cursor: pointer; }
-
-.finale {
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 1;
-  background: #2c3e50;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 0;
-  visibility: hidden;
-  transition: all 1s ease-out; }
-  .finale__text {
-    position: absolute;
-    top: 3rem;
-    right: 3rem;
-    color: #fff;
-    font-weight: 100;
-    font-size: 1.5rem; }
-  .finale__applauseometer {
-    transition: all 1.5s ease-out; }
-  .finale__message {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    visibility: hidden;
-    opacity: 0;
-    transition: all 1s ease-out;
-    transition-delay: 1.75s; }
-    .finale__message p {
-      text-align: center;
-      font-size: 1.5rem;
-      color: #fff;
-      font-style: italic; }
-    .finale__message .q-owner {
-      margin-top: 4rem;
-      text-align: right;
-      font-size: 1rem;
-      font-style: normal; }
-
-.volume {
-  position: relative;
-  width: 150px;
-  height: 500px;
-  border-bottom: 2px solid #fff;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end; }
-  .volume__threshold {
-    width: 100%;
-    height: 2px;
-    position: absolute;
-    bottom: 100px;
-    left: 0;
-    background: #c0392b; }
-  .volume__bar {
-    width: 70%;
-    height: 0;
-    background: #1abc9c; }
-
-.finale-close {
-  font-size: 2rem;
-  position: absolute;
-  top: 3rem;
-  left: 3rem;
-  color: #fff; }
-  .finale-close:hover {
-    cursor: pointer; }
