@@ -1,0 +1,32 @@
+{
+  "name": "rxjs-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r31gN/rxjs-demo.git"
+  },
+  "author": "Vlad \"r31gN_\" Zelinschi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/r31gN/rxjs-demo/issues"
+  },
+  "homepage": "https://github.com/r31gN/rxjs-demo#readme",
+  "devDependencies": {
+    "babelify": "^6.3.0",
+    "browserify": "^11.2.0",
+    "gulp": "^3.9.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-sass": "^2.0.4",
+    "lodash.assign": "^3.2.0",
+    "run-sequence": "^1.1.4",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.4.0"
+  },
+  "dependencies": {
+    "rx": "^4.0.0",
+    "superagent": "^1.4.0"
+  }
+}

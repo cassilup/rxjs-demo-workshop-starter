@@ -1,0 +1,45 @@
+html {
+  font-size: 16px !important;
+  font-family: "Roboto", sans-serif;
+
+  &,
+  body,
+  #app {
+    height: 100%;
+  }
+}
+
+#app {
+  &.finale-start,
+  &.finale-end {
+    .finale {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  &.finale-end {
+    .finale__applauseometer {
+      visibility: hidden;
+      opacity: 0;
+    }
+    .finale__message {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+}
+
+input {
+  font-family: inherit;
+  font-weight: inherit;
+}
+
+.mr-half { margin-right: .5rem; }
+.ml-half { margin-left: .5rem; }
+.mr-full { margin-right: 1rem; }
+.ml-full { margin-left: 1rem; }
+.mr-double { margin-right: 2rem; }
+.ml-double { margin-left: 2rem; }
+.mb-full { margin-bottom: 1rem; }
+.mb-double { margin-bottom: 2rem; }

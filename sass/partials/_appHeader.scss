@@ -1,0 +1,41 @@
+.app__header {
+  height: 100px;
+  background: #2c3e50;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 100;
+  padding: 0 3rem;
+
+  span {
+    font-size: 1rem;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+}
+
+  .talk-info {
+    font-size: 1.75rem;
+    width: 350px;
+    color: #fff;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    padding: .5rem;
+    outline: none;
+  }
+
+  .btn-magic {
+    transition: background .3s ease-out;
+    border: none;
+    padding: 1rem 1.25rem;
+    background: #16a085;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 100;
+    outline: none;
+    &:hover {
+      cursor: pointer;
+    }
+  }
