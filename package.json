@@ -1,19 +1,19 @@
 {
-  "name": "rxjs-demo",
+  "name": "rxjs-demo-workshop-starter",
   "version": "1.0.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/r31gN/rxjs-demo.git"
+    "url": "git+https://github.com/r31gN/rxjs-demo-workshop-starter.git"
   },
   "author": "Vlad \"r31gN_\" Zelinschi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/r31gN/rxjs-demo/issues"
+    "url": "https://github.com/r31gN/rxjs-demo-workshop-starter/issues"
   },
-  "homepage": "https://github.com/r31gN/rxjs-demo#readme",
+  "homepage": "https://github.com/r31gN/rxjs-demo-workshop-starter#readme",
   "devDependencies": {
     "babelify": "^6.3.0",
     "browserify": "^11.2.0",
