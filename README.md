@@ -1,6 +1,6 @@
 ## rxjs-demo-workshop-starter
 
-Starter project for a simple application that renders a randomly generated list of github users and also has a refresh functionality built-in. Used for Reactive Workshop, 14/21 November.
+Starter project for a simple application that renders a randomly generated list of github users and also has a refresh functionality built-in. Used for Reactive Workshop, 14/21 November, 2015.
 
 
 ### Instructions
