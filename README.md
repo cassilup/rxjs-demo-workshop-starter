@@ -1,6 +1,6 @@
-## rxjs-demo
+## rxjs-demo-workshop-starter
 
-Simple application that renders a randomly generated list of github users and also has a refresh functionality built-in.
+Starter project for a simple application that renders a randomly generated list of github users and also has a refresh functionality built-in.
 
 
 ### Instructions
