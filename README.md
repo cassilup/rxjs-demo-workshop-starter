@@ -5,7 +5,6 @@ Starter project for a simple application that renders a randomly generated list 
 
 ### Instructions
 
-
 1. Clone the repository
 
 2. Run `npm install`
