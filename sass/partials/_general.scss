@@ -9,6 +9,42 @@ html {
   }
 }
 
+
+#app {
+  &.finale-start {
+    .finale {
+      opacity: 1;
+      visibility: visible;
+    }
+    .finale__message {
+      visibility: hidden;
+      opacity: 0;
+    }
+  }
+
+  &.finale-start {
+    .finale__applauseometer {
+      visibility: visible;
+      opacity: 1;
+    }
+    .finale__message {
+      visibility: hidden;
+      opacity: 0;
+    }
+  }
+
+  &.finale-end {
+    .finale__applauseometer {
+      visibility: hidden;
+      opacity: 0;
+    }
+    .finale__message {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+}
+
 input {
   font-family: inherit;
   font-weight: inherit;

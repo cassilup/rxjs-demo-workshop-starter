@@ -13,3 +13,22 @@
     letter-spacing: 1px;
   }
 }
+
+  .btn-magic {
+    transition: background .3s ease-out;
+    border: none;
+    padding: 1rem 1.25rem;
+    background: #16a085;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 100;
+    outline: none;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
